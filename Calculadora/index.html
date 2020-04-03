@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <header> 
+        <h2>Calculadora Simples</h2>
+    </header>
+    <section>
+        <div class="group-princ"> <!--DIV - Grupo principal da section-->
+            <div class="group-conteudo"> <!--DIV - Grupo contúdo 1 -->
+                <label for="">Digite um valor: </label>        
+                <p><input type="number" name="txtv1" id="txtv1"></p>
+            </div>
+
+            <div class="group-conteudo"> <!--DIV - Grupo contúdo 2 -->
+                <label for="">Digite outro valor: </label>
+                <p><input type="number" name="txtv2" id="txtv2"></p>
+            </div>
+            <div class="btn"> <!--DIV - Botão principal -->
+                <input class="btn" type="submit" value="Calcular" onclick="calcular()">
+            </div>
+            <div class="check"> <!--DIV - CheckBox -->
+                <input type="radio" name="radnum" id="txtsom"> Somar <br>
+                <input type="radio" name="radnum" id="txtsub"> Subtrair <br>
+                <input type="radio" name="radnum" id="txtmul"> Multiplicar <br>
+                <input type="radio" name="radnum" id="txtdiv"> Dividir
+            </div>
+            <div id="res"> <!--DIV - Resultado -->
+                Aqui vai aparecer o resultado..
+            </div>
+        </div>    
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

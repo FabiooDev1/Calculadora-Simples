@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(70, 142, 236);
+    font: normal 13pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.group-princ {
+    background: white;
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 0px black;
+}
+
+.group-conteudo input {
+    border-radius: 4px;
+    width: 105px;
+    height: 10px;
+    outline: none;
+    padding: 5px;
+}
+
+.btn input {
+    margin-top: 5px;
+    width: 120px;
+    height: 25px;
+    border-radius: 4px;
+    outline: none;
+    border: 2px solid rgb(70, 142, 236);
+    background: none;
+    color: rgb(70, 142, 236);
+
+}
+ .btn input:hover {
+     background: rgb(70, 142, 236);
+     color: white;
+
+ }
+.check {
+    margin-top: 10px;
+}
+div#res { 
+    text-align: center;
+    margin-top: 10px;
+}
